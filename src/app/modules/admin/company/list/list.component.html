@@ -1,0 +1,11 @@
+<h1>Companys List</h1>
+    <div>
+        <ag-grid-angular
+            class="ag-theme-quartz"
+            style="height: 500px; width: 100%"
+            (gridReady)="onGridReady($event)"
+            [rowData]="companies"
+            [columnDefs]="columnDefs"
+        >
+        </ag-grid-angular>
+    </div>
